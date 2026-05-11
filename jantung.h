@@ -4,4 +4,8 @@
 #include <iostream>
 using namespace std;
 
+class jantung {
+public:
+};
+
 #endif
