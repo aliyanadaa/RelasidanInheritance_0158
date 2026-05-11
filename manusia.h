@@ -4,4 +4,8 @@
 #include "jantung.h"
 using namespace std;
 
+class manusia {
+public:
+};
+
 #endif
