@@ -38,6 +38,15 @@ class dokter {
         void cetakPasien();
 };
 
+void pasien::tambahDokter(dokter* pDokter) {
+    daftar_dokter.push_back(pDokter);
+}
+
+void dokter::tambahPasien(pasien* pPasien) {
+    daftar_pasien.push_back(pPasien);
+    pPasien->tambahDokter(this);
+}
+
 int main() {
 
     return 0;
