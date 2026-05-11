@@ -21,5 +21,13 @@ int main() {
     varIbu->cetakAnak();
     varibu2->cetakAnak();
 
+    delete varAnak1;
+    delete varAnak2;
+    delete varAnak3;
+    delete varIbu;
+    delete varibu2;
+
+    system("pause");
+
     return 0;
 }
